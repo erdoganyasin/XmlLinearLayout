@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="horizontal"
+    tools:context=".MainActivity">
+
+
+    <ImageView
+        android:id="@+id/gruppicture"
+        android:layout_width="200dp"
+        android:layout_height="150dp"
+        android:layout_alignParentTop="true"
+        android:background="@drawable/ezgi2" />
+    
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="KADINIMMMMM"
+        android:layout_marginTop="20dp"
+        android:id="@+id/grupname"
+        android:layout_toRightOf="@id/gruppicture"
+        />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="17.04.2009"
+        android:layout_below="@+id/grupname"
+        android:layout_toRightOf="@id/gruppicture"
+        android:id="@+id/timetext"/>
+
+    <ImageView
+        android:id="@+id/paylasımresmı"
+        android:layout_width="match_parent"
+        android:layout_height="300dp"
+        android:layout_below="@+id/gruppicture"
+        android:background="@drawable/ezgi1" />
+    
+    <ImageView
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:id="@+id/askresim"
+        android:layout_below="@+id/paylasımresmı"
+        android:layout_margin="10dp"
+        android:background="@drawable/ask"/>
+
+    <ImageView
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:id="@+id/kalpresim"
+        android:layout_below="@+id/paylasımresmı"
+        android:layout_margin="10dp"
+        android:layout_toRightOf="@id/askresim"
+        android:background="@drawable/kalp"/>
+
+    <ImageView
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:id="@+id/herseyresmi"
+        android:layout_below="@+id/paylasımresmı"
+        android:layout_margin="10dp"
+        android:layout_toRightOf="@id/kalpresim"
+        android:background="@drawable/hersey"/>
+    
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:text="HAYATIMIN KADINI"
+        android:id="@+id/kadınımtext"
+        android:layout_below="@+id/paylasımresmı"
+        android:layout_marginTop="20dp"
+        android:layout_toRightOf="@id/herseyresmi"
+        />
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+</RelativeLayout>
